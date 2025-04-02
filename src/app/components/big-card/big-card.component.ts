@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { Component, Input, OnInit } from '@angular/core';
 
 @Component({
   selector: 'app-big-card',
@@ -6,6 +6,15 @@ import { Component } from '@angular/core';
   templateUrl: './big-card.component.html',
   styleUrl: './big-card.component.css'
 })
-export class BigCardComponent {
+export class BigCardComponent implements OnInit{
+  ngOnInit(): void {
+  }
+  @Input()
+  photoCover:string="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSjcJA_hd7GjlX9irerXOFaiZsxyBInqa9JEQ&s"
+  @Input()
+  cardTitle:string="Nova versão do Angular disponível"
+  @Input()
+  cardDescription:string="Novas features e melhor acessibilidade"
 
+  constructor(){}
 }
