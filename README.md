@@ -1,4 +1,4 @@
-# AngularBlog
+# 💻AngularBlog
 
 # ⚠️Warning:
 The project is still in maintence. There was an error while trying to implements [routeLink]. 
