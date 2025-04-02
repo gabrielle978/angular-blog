@@ -15,6 +15,8 @@ export class BigCardComponent implements OnInit{
   cardTitle:string="Nova versão do Angular disponível"
   @Input()
   cardDescription:string="Novas features e melhor acessibilidade"
+  // @Input()
+  // Id:string="0"
 
   constructor(){}
 }
